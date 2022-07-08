@@ -473,72 +473,116 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Tablet*/
 @media (max-width: 768px) {
 
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-    .academic__courses{
+    /* Menú */
+    
+    
+    /*title*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+    
+    /*Formación Académica*/
+    
+        .academic__courses{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .academic__courses__box{
+            display: flex;
+            align-items: center;
+            padding-right: 40px;
+        }
+    
+        .academic__courses__list{
+            padding: 0px;
+        }
+        
+    
+        
+    
+    /*Experiencia Profesional*/
+    
+        .proyectos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .experiencie__box{
+            margin-bottom: 5%;
+        }
+            
+}
+    
+    /*Mobile*/
+@media (max-width: 425px) {
+    
+    /*Menu*/
+    nav .nav__list{
         display: flex;
         flex-direction: column;
+        
+    
+    }
+    
+    
+    .menu__list{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
         align-items: center;
     }
     
-
     
-
-/*Experiencia Profesional*/
-
-.proyectos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.experiencie__box{
-    margin-bottom: 5%;
-}
-    
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
-
-/*Menu*/
-
-/*Titulo*/
-
-/*Sección sobre mi*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formación Académica*/
-    .academic__courses{
+    .menu__list__item{
+        align-content: center;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin-bottom: 20px;
+        color: #000;
     }
     
-/*Experiencia Profesional*/
-    .proyectos{
+    /*Titulo*/
+    
+    /*Sección sobre mi*/
+    
+    /*Skills*/
+    .skills__line{
         display: flex;
-        flex-direction: column;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        line-height: 2;
         align-items: center;
+        
     }
-    .experiencie__box{
-        margin-bottom: 5%;
+    
+    
+    /*Hobbies*/
+     
+    /*Formación Académica*/
+        .academic__courses{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    /*Experiencia Profesional*/
+        .proyectos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .experiencie__box{
+            margin-bottom: 5%;
+        }
+    
+    
+     /*Contacto*/
+    
+     .formcontato__img{
+        display: none;
     }
-
-
- /*Contacto*/
-
-/*Footer*/
-
-}
+    
+    /*Footer*/
+    
+    }
