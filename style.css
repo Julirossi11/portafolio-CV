@@ -488,9 +488,11 @@ Utiliza las referencias de los breakpoints @media abajo */
         flex-direction: column;
         align-items: center;
     }
+    
+
+    
 
 /*Experiencia Profesional*/
-
     .proyectos{
         display: flex;
         flex-direction: column;
@@ -499,6 +501,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     .experiencie__box{
         margin-bottom: 5%;
     }
+    
 
 }
 
