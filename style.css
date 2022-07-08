@@ -493,14 +493,15 @@ Utiliza las referencias de los breakpoints @media abajo */
     
 
 /*Experiencia Profesional*/
-    .proyectos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .experiencie__box{
-        margin-bottom: 5%;
-    }
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experiencie__box{
+    margin-bottom: 5%;
+}
     
 
 }
@@ -519,8 +520,22 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Hobbies*/
  
 /*Formación Académica*/
-
+    .academic__courses{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 /*Experiencia Profesional*/
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .experiencie__box{
+        margin-bottom: 5%;
+    }
+
 
  /*Contacto*/
 
